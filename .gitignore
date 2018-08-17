@@ -2,3 +2,6 @@
 *.o
 bin/ball.exe
 ball.zip
+
+.vagrant/
+.vscode/

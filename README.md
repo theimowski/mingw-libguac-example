@@ -22,3 +22,12 @@ a Windows build of libguac.
 For convenience, the build will also produce a zip file, `ball.zip`, containing
 the executable and all dependencies.
 
+
+Building with Vagrant
+---------------------
+
+1. vagrant up mingw
+1. vagrant ssh mingw
+1. cd /vagrant
+1. make
+1. output: ./ball.zip
